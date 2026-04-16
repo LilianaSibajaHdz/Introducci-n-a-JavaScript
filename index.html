@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ejemplo de ejecución de script de JS con la consola desde un archivo HTML</h1>
+
+    <script>
+        let mascota = "Bowie";
+        console.log("Hola, mi mascota se llama " + mascota);
+
+        //Intput y output con prompt consola.log 
+        //let nombre = prompt("¿Cuál es tu nombre?");
+        //console.log("Hola, " + nombre + "!");
+
+        //Tipos de datos
+        let numero = 42;
+        let booleano = true;
+        let texto = "Esto es un texto";
+        console.log("Número " + numero);
+        console.log("Booleano " + booleano);
+        console.log("Texto " + texto);
+
+        let a = 10;
+        let b = 5;
+        // Operaciones matemáticas
+        let suma = a + b;
+        let resta = a - b;
+        let multiplicacion = a * b;
+        let division = a / b;
+        console.log("Suma: " + suma);
+        console.log("Resta: " + resta);
+        console.log("Multiplicación: " + multiplicacion);
+        console.log("División: " + division);
+
+        // Operadores de comparación
+        console.log("¿a es igual a b? " + (a === b));
+        console.log("¿a es mayor que b? " + (a > b));
+        console.log("¿a es menor que b? " + (a < b));
+
+        if (null) {
+            console.log("Esto no se ejecuta porque null es falsy.");
+        } else {
+            console.log("null es falsy.");
+        }
+    </script>
+</body>
+</html>
