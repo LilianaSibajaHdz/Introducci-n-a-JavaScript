@@ -1,1 +1,38 @@
-# Introducci-n-a-JavaScript
+# 🚀 Ejercicios de JavaScript
+
+## Contenido
+- **tipos-de-dato.js**: Ejercicio sobre los distintos tipos de datos en JavaScript (number, string, boolean, null, undefined, etc.).
+
+## Objetivo
+El propósito de este repositorio es practicar el uso de Git, GitHub y los fundamentos de programación con JavaScript.
+
+## 📦 Clonar el repositorio
+
+Para descargar este proyecto en tu máquina local, ejecuta el siguiente comando en tu terminal:
+
+```bash
+git clone [https://github.com/LilianaSibajaHdz/Introducci-n-a-JavaScript.git]
+
+Después, entra a la carpeta del proyecto:
+
+```bash
+cd mi-primer-repo
+
+## 🧑‍💻 Abrir el proyecto en Visual Studio Code
+Si tienes VS Code instalado, puedes abrir el proyecto rápidamente ejecutando:
+
+```bash
+code .
+
+Si el comando code no funciona, abre VS Code manualmente, selecciona File → Open Folder y elige la carpeta mi-primer-repo.
+
+## 🚀 Ejecutar los ejercicios
+
+Para visualizar y probar los ejercicios de JavaScript:
+
+#### 1️⃣ Usando Node.js (Recomendado para lógica)
+
+Asegúrate de estar en la carpeta del proyecto desde tu terminal y ejecuta:
+
+```bash
+node tipos-de-dato.js
