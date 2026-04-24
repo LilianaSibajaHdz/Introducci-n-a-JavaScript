@@ -1,7 +1,4 @@
-# 🚀 Ejercicios de JavaScript
-
-## Contenido
-- **tipos-de-dato.js**: Ejercicio sobre los distintos tipos de datos en JavaScript (number, string, boolean, null, undefined, etc.).
+# 🚀 Ejercicios de Ja
 
 ## Objetivo
 El propósito de este repositorio es practicar el uso de Git, GitHub y los fundamentos de programación con JavaScript.
@@ -38,5 +35,5 @@ Para visualizar y probar los ejercicios de JavaScript:
 Asegúrate de estar en la carpeta del proyecto desde tu terminal y ejecuta:
 
 ```bash
-node evaluador-notas.js
+node carpeta/archivo.js
 ```
