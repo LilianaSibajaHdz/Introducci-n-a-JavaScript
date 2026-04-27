@@ -10,14 +10,25 @@ boton.addEventListener('click', function() {
         return;
     }
 
-    const parrafoNuevo = document.createElement('p');
-    
+    const divComentario = document.createElement('div');
+    divComentario.classList.add('comentario-container');
+
     const ahora = new Date();
     const fechaHora = ahora.toLocaleString();
+    const textoComentario = document.createElement('p');
+    textoComentario.innerHTML = `<strong>[${fechaHora}]:</strong> ${texto}`;
 
-    parrafoNuevo.innerHTML = `<strong>[${fechaHora}]:</strong> ${texto}`;
+    const btnEliminar = document.createElement('button');
+    btnEliminar.textContent = "Eliminar";
+    btnEliminar.classList.add('btn-eliminar');
 
-    contenedor.appendChild(parrafoNuevo);
+    btnEliminar.addEventListener('click', function() {
+        divComentario.remove();
+    });
+
+    divComentario.appendChild(textoComentario);
+    divComentario.appendChild(btnEliminar);
+    contenedor.appendChild(divComentario);
 
     cajaTexto.value = "";
 });
