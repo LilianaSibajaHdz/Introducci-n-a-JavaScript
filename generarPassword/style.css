@@ -1,0 +1,81 @@
+:root {
+    --color-fondo: #18171f;
+    --color-fondo-tarjeta: #24232c;
+    --verde-neon: #a4ffaf;
+    --color-texto: #e6e5ea;
+}
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor-aplicacion {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+h1 { 
+    color: #817d92; 
+    font-size: 1.2rem; 
+    text-align: center; 
+}
+
+.contenedor-resultado, .contenedor-formulario {
+    background-color: var(--color-fondo-tarjeta);
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#resultadoContrasena { 
+    font-size: 1.5rem; 
+    color: var(--color-texto); 
+}
+
+.encabezado-rango {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#valorLongitud { 
+    color: var(--verde-neon); 
+    font-size: 1.5rem; 
+}
+
+input[type="range"] {
+    width: 100%;
+    accent-color: var(--verde-neon);
+    margin-bottom: 20px;
+}
+
+.opciones-configuracion { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px; 
+    margin-bottom: 25px; 
+}
+
+#botonGenerar {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--verde-neon);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#botonGenerar:hover {
+    background-color: transparent;
+    color: var(--verde-neon);
+    border: 2px solid var(--verde-neon);
+}
